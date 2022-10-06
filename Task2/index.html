@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>My first Timeline</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div id="wrapper"></div>
+    <script src="./d3.v6.js"></script>
+    <script src="./bar.js"></script>
+  </body>
+<body>
+  <button style="position:relative; left:40px; top:2px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); float: left; background-color: #5449B5;border: none;color: white; padding: 15px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;" type = "button" onclick="drawBar(AccessorMin)">TemperatureMin</button>
+  <button style="position:relative; left:40px; top:2px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); float: left; background-color: #5449B5;border: none;color: white; padding: 15px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;" type = "button" onclick="drawBar(AccessorMax)">TemperatureMax</button>
+  <button style="position:relative; left:40px; top:2px;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); float: left; background-color: #5449B5;border: none;color: white; padding: 15px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;" type = "button" onclick="drawBar(AccessorLow)">TemperatureLow</button>
+  <button style="position:relative; left:40px; top:2px;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); float: left; background-color: #5449B5;border: none;color: white; padding: 15px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;" type = "button" onclick="drawBar(AccessorHigh)">TemperatureHigh</button>
+</body>
+</html>
